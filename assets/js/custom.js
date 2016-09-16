@@ -1,3 +1,15 @@
+$(window).scroll(function() {
+    if ($(this).scrollTop()>0)
+     {
+        $('.header-info').fadeOut();
+     }
+    else
+     {
+      $('.header-info').fadeIn();
+     }
+ });
+
+
 $('#myCarouselSatu').carousel({
   interval: 4000
 });
