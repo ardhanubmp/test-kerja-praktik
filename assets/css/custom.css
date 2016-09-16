@@ -288,14 +288,33 @@ p.small-point{
 
 
 /*//////////sample gratis///////*/
-.sample-gratis{
-  width: auto;
+.sampel{
+  background-color: red;
+  width: 100%;
   height: 300px;
+}
+.sampel-image{
+  /*display: block;*/
+
+  background-image: url(../img/group-6.png);
+  /*background-repeat: no-repeat;*/
+  width: 100%;
+  height: 300px;
+}
+.sampel-content h3{
+  color: #fff;
   text-align: center;
+}
+.sampel-content div.btn-kulina-2{
+  width: 300px;
+  font-size: 16px;
+  margin: auto;
+}
+.sampel-content div.btn-kulina-2:hover{
   color: #fff;
 }
-
-.col-md-6.sample-gratis-img{
+.sampel-content{
+  margin-top: 77.5px;
 }
 /*//////////sample geratis///////*/
 
@@ -312,6 +331,12 @@ img.profile{
 
 .fa.fa-heart{
   color: red;
+}
+
+
+.testimoni{
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 
