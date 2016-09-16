@@ -289,21 +289,30 @@ p.small-point{
 
 /*//////////sample gratis///////*/
 .sample-gratis{
-  background-color: red;
-  top: 50%;
   width: auto;
   height: 300px;
   text-align: center;
   color: #fff;
 }
-.sample-gratis-content{
-  background-color: blue;
-  margin-top: 16%;
+
+.col-md-6.sample-gratis-img{
 }
 /*//////////sample geratis///////*/
 
 
+img.profile{
+  width: 84px;
+  margin-bottom: 25px;
+  border-radius: 42
+}
+.fa{
+  color: grey;
+  font-size: 20px;
+}
 
+.fa.fa-heart{
+  color: red;
+}
 
 
 
